@@ -26,7 +26,7 @@ Otherwise, run the following commands:
 
 ### HDC encoder
 
-This block encodes audio into High-Definition Coding (HDC) frames. The input sample rate must be 44,100 samples per second. ADTS headers are added to the output frames to facilitate synchronization. The encoding is performed by a patched version of fdk-aac: https://github.com/argilo/fdk-aac/tree/hdc-encoder
+This block encodes audio into High-Definition Coding (HDC) frames. The input sample rate must be 44,100 samples per second. ADTS headers are added to the output frames to facilitate synchronization. Parametric Stereo is enableable via the dropdown menu. The encoding is performed by a patched version of fdk-aac: https://github.com/Sussyman2-0/fdk-aac-HDC-PS-patch/tree/hdc-encoder-ps
 
 ### PSD encoder
 
